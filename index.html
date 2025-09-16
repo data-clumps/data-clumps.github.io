@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Clumps - Automated Code Refactoring</title>
+    <meta name="description" content="Transform your codebase with automated data clump detection and refactoring pipeline">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <h2>🔧 Data Clumps</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#how-it-works">How It Works</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact" class="cta-button">Get Started</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Eliminate <span class="gradient-text">Data Clumps</span><br>
+                    Transform Your Codebase
+                </h1>
+                <p class="hero-description">
+                    Discover and automatically refactor data clumps in your code with our intelligent pipeline. 
+                    Improve code quality, maintainability, and reduce technical debt.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="primary-button">Start Free Trial</a>
+                    <a href="#demo" class="secondary-button">
+                        <span>🎥</span> Watch Demo
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <h3>99%</h3>
+                        <p>Accuracy Rate</p>
+                    </div>
+                    <div class="stat">
+                        <h3>10x</h3>
+                        <p>Faster Refactoring</p>
+                    </div>
+                    <div class="stat">
+                        <h3>50+</h3>
+                        <p>Languages Supported</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="code-animation">
+                    <div class="code-block before">
+                        <div class="code-header">Before 😵‍💫</div>
+                        <pre><code>class User {
+  String name, email, phone;
+  void process(String n, String e, String p) {
+    // Data clumps everywhere!
+  }
+}</code></pre>
+                    </div>
+                    <div class="arrow">→</div>
+                    <div class="code-block after">
+                        <div class="code-header">After ✨</div>
+                        <pre><code>class UserInfo {
+  String name, email, phone;
+}
+class User {
+  void process(UserInfo info) {
+    // Clean, maintainable code!
+  }
+}</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Powerful Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🔍</div>
+                    <h3>Smart Detection</h3>
+                    <p>Advanced algorithms identify data clumps across your entire codebase with high precision.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Automated Refactoring</h3>
+                    <p>Transform detected data clumps into clean, maintainable code structures automatically.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🚀</div>
+                    <h3>CI/CD Integration</h3>
+                    <p>Seamlessly integrate with your existing development workflow and CI/CD pipelines.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Detailed Reports</h3>
+                    <p>Get comprehensive insights about code quality improvements and refactoring impact.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🛡️</div>
+                    <h3>Safe Transformations</h3>
+                    <p>Every refactoring is tested and validated to ensure your code behavior remains unchanged.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌍</div>
+                    <h3>Multi-Language</h3>
+                    <p>Support for Java, Python, JavaScript, TypeScript, C#, and many more languages.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">How It Works</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Connect Repository</h3>
+                        <p>Link your GitHub, GitLab, or Bitbucket repository to our platform in seconds.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Analyze Code</h3>
+                        <p>Our AI-powered engine scans your codebase to identify data clumps and anti-patterns.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Review Suggestions</h3>
+                        <p>Get detailed refactoring suggestions with before/after comparisons and impact analysis.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Apply Changes</h3>
+                        <p>Automatically apply approved refactorings with comprehensive testing and validation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2 class="section-title">Simple Pricing</h2>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Starter</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">29</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✅ Up to 5 repositories</li>
+                        <li>✅ Basic refactoring pipeline</li>
+                        <li>✅ Email support</li>
+                        <li>✅ Monthly reports</li>
+                    </ul>
+                    <a href="#contact" class="pricing-button">Start Free Trial</a>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="pricing-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <h3>Professional</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">99</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✅ Unlimited repositories</li>
+                        <li>✅ Advanced AI refactoring</li>
+                        <li>✅ Priority support</li>
+                        <li>✅ Real-time analysis</li>
+                        <li>✅ Custom rules</li>
+                        <li>✅ API access</li>
+                    </ul>
+                    <a href="#contact" class="pricing-button">Start Free Trial</a>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Enterprise</h3>
+                        <div class="price">
+                            <span class="amount">Custom</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✅ Everything in Professional</li>
+                        <li>✅ On-premise deployment</li>
+                        <li>✅ Dedicated support</li>
+                        <li>✅ Custom integrations</li>
+                        <li>✅ SLA guarantee</li>
+                    </ul>
+                    <a href="#contact" class="pricing-button">Contact Sales</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <h2 class="section-title">Ready to Transform Your Code?</h2>
+                <p>Start your journey to cleaner, more maintainable code today.</p>
+                <div class="contact-buttons">
+                    <a href="mailto:hello@dataclumps.dev" class="primary-button">Get Started</a>
+                    <a href="https://github.com/data-clumps" class="secondary-button">
+                        <span>📋</span> View on GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>🔧 Data Clumps</h3>
+                    <p>Automated code refactoring for better software.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Product</h4>
+                        <a href="#features">Features</a>
+                        <a href="#pricing">Pricing</a>
+                        <a href="#contact">Support</a>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Resources</h4>
+                        <a href="#">Documentation</a>
+                        <a href="#">API Reference</a>
+                        <a href="#">Blog</a>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Company</h4>
+                        <a href="#">About</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Data Clumps. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
